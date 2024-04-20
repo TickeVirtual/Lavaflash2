@@ -522,8 +522,8 @@ document.getElementById('impresoraButton').addEventListener('click', printTicket
                 
             </tbody>
         </table>
-        <br/>
-        <br/>
+   
+        
         <p class="saldo-text">
             <b><span class="estado-deuda" id="estado"></span></b>
         </p>
@@ -582,7 +582,7 @@ document.getElementById('impresoraButton').addEventListener('click', printTicket
         var a_cuenta_dosElement = document.getElementById("a_cuenta_dos"); a_cuenta_dosElement.textContent = parseFloat(a_cuenta_dos).toFixed(2);
 
 
-        var total_por_pagarElement = document.getElementById("total_por_pagar");totalElement.textContent = parseFloat(total).toFixed(2);
+        var total_por_pagarElement = document.getElementById("total_por_pagar");total_por_pagarElement.textContent = parseFloat(total_por_pagar).toFixed(2);
         var porcent_descElement = document.getElementById("porcent_desc").textContent = porcent_desc;
         var porcent_desc_plataElement = document.getElementById("porcent_desc_plata").textContent = porcent_desc_plata;
            
