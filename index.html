@@ -161,18 +161,7 @@
         line-height: 2mm;
       }
 
-      .table-footer2 {
-        vertical-align: bottom;
-        text-align: right;
-        font-size: 2mm;
-        line-height: 2mm;
-      }
       .table-footer h2 {
-        margin: 0;
-        font-size: 2mm;
-      }
-
-      .table-footer2 h2 {
         margin: 0;
         font-size: 2mm;
       }
@@ -482,30 +471,53 @@ document.getElementById('impresoraButton').addEventListener('click', printTicket
      
         
         
-     </script>
+    </script>
     
+    
+
                 <tr class="table-footer top-line">
-                    <td class="" colspan="3"><h2>Subtotal:</h2></td>
+                    <td class="" colspan="3">Total Venta:</td>
                     <td colspan="3"><h2 id="total"></h2></td>
                 </tr>
                 <tr class="table-footer">
-                    <td colspan="3"><h2>Descuento:</h2></td>
+                    <td colspan="3"><h2>Desc x prenda:</h2></td>
+                    <td colspan="3"><h2 id="desc_por_prenda"></h2></td>
+                    
+                </tr>
+                 <tr class="table-footer">
+                    <td colspan="3"><h2>Desc ticket:</h2></td>
                     <td colspan="3"><h2 id="subtotal_desc"></h2></td>
                     
                 </tr>
                 
                 <tr class="table-footer">
-                    <td colspan="3"><h2>A cuenta:</h2></td>
+                    <td colspan="3"><h2>A cuenta 1:</h2></td>
                     <td colspan="3"><h2 id="a_cuenta"></h2></td>
                     
                 </tr>
+ <tr class="table-footer">
+                    <td colspan="3"><h2>A cuenta 2:</h2></td>
+                    <td colspan="3"><h2 id="a_cuenta_dos"></h2></td>  
+             
+                </tr>
                 
                 <tr class="table-footer">
-                    <td colspan="3"><h2>Total a pagar:</h2></td>
+                    <td colspan="3"><h2>0</h2></td>
                     <td colspan="3"><h2 id="total_a_pagar"></h2></td>
                 </tr>
                 
+           
                 
+                <tr class="table-footer">
+                    <td colspan="3"><h2 id="porcent_desc"></h2></td>
+                    <td colspan="3"><h2 id="porcent_desc_plata"></h2></td>
+
+                </tr>
+                
+                 <tr class="table-footer">
+                    <td colspan="3"><h2>Total por pagar:</h2></td>
+                    <td colspan="3"><h2 id="total_por_pagar"></h2></td>
+                </tr>
                 
                 
             </tbody>
